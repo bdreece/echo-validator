@@ -1,4 +1,4 @@
-[![.github/workflows/ci.yml](https://github.com/bdreece/echo-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/bdreece/echo-validator/actions/workflows/ci.yml)
+[![.github/workflows/build.yml](https://github.com/bdreece/echo-validator/actions/workflows/build.yml/badge.svg)](https://github.com/bdreece/echo-validator/actions/workflows/build.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/bdreece/echo-validator.svg)](https://pkg.go.dev/github.com/bdreece/echo-validator)
 
 # echo-validator
