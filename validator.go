@@ -16,11 +16,11 @@ func (v *Validator) Validate(i any) error {
 }
 
 // Creates a new [Validator].
-func New() *Validator {
-    return &Validator{validator.New()}
+func New(v *validator.Validate) *Validator {
+    return &Validator{v}
 }
 
 // A global singleton [Validator].
-var Default = New()
+var Default = New(validator.New())
 
 var _ echo.Validator = (*Validator)(nil)
