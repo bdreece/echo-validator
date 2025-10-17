@@ -1,5 +1,5 @@
-[![.github/workflows/build.yml](https://github.com/bdreece/echo-validator/actions/workflows/build.yml/badge.svg)](https://github.com/bdreece/echo-validator/actions/workflows/build.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bdreece/echo-validator.svg)](https://pkg.go.dev/github.com/bdreece/echo-validator)
+[![GitHub Actions Workflow Status](https://github.com/bdreece/echo-validator/actions/workflows/build.yml/badge.svg)](https://github.com/bdreece/echo-validator/actions/workflows/build.yml)
+[![Go Reference](https://pkg.go.dev/badge/gopkg.in/bdreece/echo-validator.v1.svg)](https://pkg.go.dev/gopkg.in/bdreece/echo-validator.v1)
 
 # echo-validator
 

@@ -1,3 +1,5 @@
+// Package echovalidator provides a wrapper for [github.com/goplayground/validator/v10.Validate]
+// implementing [github.com/labstack/echo/v4.Validator].
 package echovalidator
 
 import (
@@ -7,17 +9,17 @@ import (
 
 // The [validator.Validate] wrapper.
 type Validator struct {
-    validator *validator.Validate
+	validator *validator.Validate
 }
 
 // Validate implements [echo.Validator]
 func (v *Validator) Validate(i any) error {
-    return v.validator.Struct(i)
+	return v.validator.Struct(i)
 }
 
 // Creates a new [Validator].
 func New(v *validator.Validate) *Validator {
-    return &Validator{v}
+	return &Validator{v}
 }
 
 // A global singleton [Validator].
